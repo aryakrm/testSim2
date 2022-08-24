@@ -44,8 +44,8 @@ body {
 }
 .nav div:first-child {
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding: 0.5rem;
   width: 20%;
   height: 5rem;
   background-color: gray;
@@ -82,5 +82,9 @@ body {
   }
   .nav div:nth-child(2) {
     width: 7%;
+  }
+  .nav div:first-child {
+    color: transparent;
+    background-color: lightgray;
   }
 }
